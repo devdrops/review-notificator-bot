@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  nodejs:
+    image: node:8.11
+    volumes:
+      - .:/bot
+    working_dir: /bot
+
